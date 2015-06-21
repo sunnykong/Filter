@@ -1,5 +1,6 @@
 package com.kong.webFilter;
 
+
 public interface Filter {
-	String doFilter();
+	void doFilter(Request request,Response response,FilterChian filterChian);
 }
